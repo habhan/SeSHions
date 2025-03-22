@@ -25,6 +25,6 @@ alias e := execute
 # Adds all files and Commits with string provided to command
 [no-cd]
 [positional-arguments]
-@commit commit:
+@commit commitMessage:
   git add -A
   git commit -m "$@"
